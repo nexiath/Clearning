@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-
-
 int anniversaire(char name[], int age) {
      printf("Joyeux anniversaire %s\n", name);
      printf("tu es agé de %d ans\n", age);
 }
-
 int main(){
     char name[] = "matheo";
     int age = 15;
@@ -14,12 +11,6 @@ int main(){
     anniversaire(name, age);
     return 0;
 }
-
-
-
-
-
-
 // int main(int argc, char **argv){
 
 //     // float r, a, p;
@@ -74,6 +65,5 @@ int main(){
 //     scanf("%lf", &d);
 //     e = (a*b+c*d)/(b+d);
 //     printf("la moyenne de tout ça = %f\n", e);
-
 //     return 0;
 // }
