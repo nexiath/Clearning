@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int tab[] = {1, 2, 6, 3, 9, 4};
